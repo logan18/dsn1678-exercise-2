@@ -62,7 +62,9 @@ body {
   transition: background-color 1000ms linear;
 }
 
-.chart__item:hover {
+.chart__item:hover,
+.chart__item:focus,
+.chart__item:active{
 background-color: rgba(222,225,224,1.00);
 }
 
