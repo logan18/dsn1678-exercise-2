@@ -81,6 +81,12 @@ background-color: rgba(222,225,224,1.00);
   width: 100%;
 
   text-align: center;
+  transition: color 250ms linear;
+}
+
+.chart__label:hover {
+	color: #D6DC34;
+	
 }
 
 .chart__bar-wrap {
@@ -100,7 +106,9 @@ background-color: rgba(222,225,224,1.00);
 
 }
 
-.chart__bar:hover, {
+.chart__bar:hover,
+.chart--bar:focus,
+.chart-bar:active {
 	background-color:#8E8E06;
 }
 
