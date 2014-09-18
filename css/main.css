@@ -62,10 +62,10 @@ body {
   transition: background-color 250ms linear;
 }
 
-.chart__item:hover,
-.chart__item:focus,
-.chart__item:active{
-background-color: rgba(222,225,224,.05);
+.chart__item:hover .chart__label,
+.chart__item:focus .chart__label,
+.chart__item:active .chart__label{
+background-color: rgba(222,225,224,.07);
 }
 
 .chart__link,
@@ -86,7 +86,9 @@ background-color: rgba(222,225,224,.05);
   transition: color 250ms linear;
 }
 
-.chart__label:hover {
+.chart__label:hover .chart__bar,
+.chart__label:focus .chart__bar,
+.chart__label:active .chart__bar{
 	color: #D6DC34;
 	
 }
