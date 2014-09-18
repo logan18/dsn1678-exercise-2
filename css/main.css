@@ -62,10 +62,10 @@ body {
   transition: background-color 250ms linear;
 }
 
-.chart__item:hover .chart__label,
-.chart__item:focus .chart__label,
-.chart__item:active .chart__label{
-background-color: rgba(222,225,224,.07);
+.chart__item:hover,
+.chart__item:focus,
+.chart__item:active{
+	background-color: rgba(222,225,224,.07);
 }
 
 .chart__link,
@@ -86,9 +86,9 @@ background-color: rgba(222,225,224,.07);
   transition: color 250ms linear;
 }
 
-.chart__label:hover .chart__bar,
-.chart__label:focus .chart__bar,
-.chart__label:active .chart__bar{
+.chart__item:hover .chart__label,
+.chart__item:focus .chart__label,
+.chart__item:active .chart__label{
 	color: #D6DC34;
 	
 }
@@ -110,12 +110,11 @@ background-color: rgba(222,225,224,.07);
 
 }
 
-.chart__bar:hover,
-.chart--bar:focus,
-.chart-bar:active {
-	background-color:#8E8E06;
+.chart__item:hover .chart__bar,
+.chart__item:focus .chart__bar,
+.chart__item:active .chart__bar{
+	background-color:#C4C441;
 }
-
 
 .chart__count {
   display: inline-block;
