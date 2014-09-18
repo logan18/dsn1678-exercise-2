@@ -66,7 +66,7 @@ body {
 .chart__item:hover,
 .chart__item:focus,
 .chart__item:active{
-	background-color: rgba(222,225,224,.07);
+	background-color: rgba(222,225,224,0.5);
 }
 
 .chart__link,
